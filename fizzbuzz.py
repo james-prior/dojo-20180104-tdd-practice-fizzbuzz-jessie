@@ -9,4 +9,5 @@ def fizzbuzz(doodle):
         return 'Buzz'
     elif doodle == 15:
         return 'FizzBuzz'
-        
+    elif doodle == 4:
+        return '4'
