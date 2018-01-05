@@ -3,10 +3,10 @@ def fizzbuzz(doodle):
         return '1'
     elif doodle == 2: 
         return '2'
-    elif doodle in (5, 10):
-        return 'Buzz'
-    elif doodle % 5 == 0:
+    elif doodle % 3 == 0 and doodle % 5 == 0:
         return 'FizzBuzz'
+    elif doodle % 5 == 0:
+        return 'Buzz'
     elif doodle % 3 == 0: 
         return 'Fizz'
     elif doodle == 4:
