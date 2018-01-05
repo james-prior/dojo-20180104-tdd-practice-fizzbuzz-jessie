@@ -1,9 +1,9 @@
 def fizzbuzz(doodle):
-    output = ''
+    words = ''
     if doodle % 3 == 0:
-        output += 'Fizz'
+        words += 'Fizz'
     if doodle % 5 == 0:
-        output += 'Buzz'
-    if not output:
-        output = str(doodle)
-    return output
+        words += 'Buzz'
+    if not words:
+        words = str(doodle)
+    return words
