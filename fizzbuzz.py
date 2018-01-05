@@ -3,5 +3,8 @@ def fizzbuzz(doodle):
         return '1'
     elif doodle == 2: 
         return '2'
-    else:
+    elif doodle == 3: 
         return 'Fizz'
+    else:
+        return 'Buzz'
+        
