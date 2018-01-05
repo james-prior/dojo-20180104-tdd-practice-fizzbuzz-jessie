@@ -18,6 +18,11 @@ number_to_expected_string = {
     13: '13',
     14: '14',
     15: 'FizzBuzz',
+    30: 'FizzBuzz',
+    45: 'FizzBuzz',
+    60: 'FizzBuzz',
+    75: 'FizzBuzz',
+    90: 'FizzBuzz',
 }
 @pytest.mark.parametrize('number, expected_string', number_to_expected_string.items())
 def test_known_number_returns_expected(number, expected_string):
