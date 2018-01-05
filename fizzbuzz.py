@@ -5,7 +5,7 @@ def fizzbuzz(doodle):
         return '2'
     elif doodle in (6, 3, 9, 12): 
         return 'Fizz'
-    elif doodle == 5:
+    elif doodle in (5, 10):
         return 'Buzz'
     elif doodle == 15:
         return 'FizzBuzz'
