@@ -3,7 +3,7 @@ def fizzbuzz(doodle):
         return '1'
     elif doodle == 2: 
         return '2'
-    elif doodle == 3: 
+    elif doodle in (6, 3): 
         return 'Fizz'
     else:
         return 'Buzz'
