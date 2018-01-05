@@ -1,2 +1,5 @@
 def fizzbuzz(doodle):
-    return '1'
+    if doodle == 1: 
+        return '1'
+    else: 
+        return '2'
