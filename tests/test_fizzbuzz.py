@@ -18,6 +18,7 @@ number_to_expected_string = {
     13: '13',
     14: '14',
     15: 'FizzBuzz',
+    20: 'Buzz',
     30: 'FizzBuzz',
     45: 'FizzBuzz',
     60: 'FizzBuzz',
