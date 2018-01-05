@@ -4,6 +4,4 @@ def fizzbuzz(input_number):
         words += 'Fizz'
     if input_number % 5 == 0:
         words += 'Buzz'
-    if not words:
-        words = str(input_number)
-    return words
+    return words or str(input_number)
